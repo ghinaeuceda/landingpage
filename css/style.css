@@ -1,0 +1,342 @@
+
+:root{
+	--color-huevo:#ddc436;
+	--color-gris:#f6f6f6;
+	--color-gris-claro: #fdfdfd;
+	--color-hover-gris: #efefef;
+	--color-verde:#89be4f;
+}
+body{
+	font-family:"MADE TOMMY", "MADE TOMMY Outline" ;
+	font-size: 14px;
+	color: #444;
+	font-weight: 300;
+	line-height: 1.8 !important;
+}
+header{
+	background-image: url("../Img/WhatsApp Image 2020-08-08 at 5.08.56 PM.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+.lista-redes i{
+	color:#bc9433;
+	margin-right: 24px;
+}
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+	
+}
+.section{
+	padding-top:25px 
+	
+	
+}
+#BadBunny{
+	background-image:url("../Img/Concierto.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 10% 0;
+	
+	
+	
+	
+}
+#BadBunny h1{
+	color: #fff;
+	font-size: 55px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+#BadBunny h2{
+	color: #fff;
+	font-size: 65px;
+	text-transform: uppercase;
+	font-weight:700;
+	margin-top: -15px;
+}
+#BadBunny h3{
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight:200;
+	margin-top: -15px;
+	padding-bottom: 10px;
+}
+
+.art1{
+	text-align: center;
+}
+.btn-danger{
+	background-color: #bc9433;
+	border-radius: 0;
+	border-color:#bc9433;
+	padding: 10px 55px;
+	font-size: 25px;	
+	color: rgba(8,24,48,1.00);
+	font-weight: 600;
+	
+}
+.btn-danger:hover{
+	background-color: #ddc436;
+	border-radius: 0;
+	border-color:#bc9433;
+	padding: 10px 55px;
+	color: rgba(8,24,48,1.00);
+		font-weight: 600;
+	
+	
+	
+}
+#album{
+	background-color: #000000;
+	text-align: center;
+	padding-bottom: 0;
+		
+}
+.art1-1 img{
+	margin-left: 15%;
+	
+	padding-top: 15%;	
+	width: 80%;
+}
+#album h1{
+	color: rgba(186,0,3,1.00);
+	font-size: 55px;
+	text-transform: capitalize;
+	font-weight: 600;
+}
+#album h2{
+	color: #fff;
+	font-size: 35px;
+	text-transform:capitalize;
+	font-weight:400;
+	
+}
+#album p{
+	color: #FFFFFF;
+	font-size: 50px;
+	font-weight: 600;
+}
+.art2 img{
+	width: 80%;
+}
+#boletos{
+	background-color: rgba(218,180,71,1.00); 
+}
+.art-3 img{
+	width: 1000px;
+	margin-top: -55px;
+}
+#boletos ul{
+	list-style: none;
+	padding: 0;
+	margin: 7% 0;
+}
+#boletos ul li::before{
+	content:"\f3ff";
+	font-family: "Font Awesome 5 free";
+	font-weight: 600;
+	color: rgba(44,76,125,1.00);
+	padding-right: 30px;}
+.bullet{
+	
+	
+}
+#komprar ul{
+	list-style: none !important;	
+}
+.btn-comprar{
+	margin: 15px 0px;
+	border-radius: 1;
+	color: rgba(255,255,255,1.00);
+	background-color: rgba(0,0,0,0.68);
+	color: rgba(255,255,255,1.00) !important;
+	padding: 5px 25px;
+	
+	
+}
+
+.btn-uno{
+	margin: 15px 0px;
+	border-radius: 1;
+	color: rgba(255,255,255,1.00);
+	background-color: rgba(0,0,0,0.20);
+	color: rgba(0,0,0,1.00) !important;
+	padding: 5px 35px;
+	border-color: rgba(0,0,0,0.20);
+	
+	
+}
+#boletos ul li{
+	color: #0D1F5F;
+	font-size: 33px;
+	font-weight: 600;
+	margin-top: -10px;
+	margin-bottom: 15px;
+}
+#boletos h2{
+	color:rgba(19,30,56,1.00);
+	font-size: 45px;
+	padding-bottom: 5%;
+	
+}
+.foto-bunny{
+	margin-left: -250px;
+	margin-top: -65px;
+}
+
+#merch{
+	background-image: url("../Img/WhatsApp Image 2020-08-08 at 6.21.48 PM.jpeg");
+		background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 2%;
+	text-align: center;
+	padding-bottom: 2%;
+}
+#merch img{
+	width: 50%;
+	margin: auto;
+}
+#merch h3{
+	color: #FFFFFF;
+	letter-spacing: 2;
+	font-size: 60px;
+	
+}
+
+.foto{
+	padding-top: 5%;
+	height: 110px;
+}
+#pago{
+	background: linear-gradient(to right,#4A148C,#C90609);
+	padding-bottom: none;
+}
+.card {
+    background: #000;
+    color: #fff;
+    width: 410px !important
+}
+
+.mrow {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+img {
+    margin-right: 10px
+}
+
+.main span:hover {
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.mrow img:hover {
+    border-bottom: 1px solid #fff;
+    cursor: pointer
+}
+
+.btn-primary {
+    border: none;
+    border-radius: 30px
+}
+
+h5 {
+    padding-top: 8px
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 2rem
+}
+
+.form-control-placeholder {
+    position: absolute;
+    top: 6px;
+    padding: 7px 0 0 10px;
+    transition: all 200ms;
+    opacity: 0.5;
+    color: #dae0e5 !important;
+    font-size: 75%
+}
+
+.form-control:focus+.form-control-placeholder,
+.form-control:valid+.form-control-placeholder {
+    font-size: 75%;
+    transform: translate3d(0, -100%, 0);
+    opacity: 1;
+    top: 10px
+}
+
+.form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff !important;
+    border-radius: 0;
+    outline: 0
+}
+
+.form-control:focus,
+.form-control:after {
+    outline-width: 0;
+    border-bottom: 1px solid #fff !important;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    color: #dae0e5;
+    letter-spacing: 1px}
+#pago h2{
+	color: rgba(255,255,255,1.00);
+	font-weight: 800;
+	text-align: center;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	font-size: 50px;
+}
+.konejo{
+	margin-top: 20%;
+	height:75%;
+}
+
+footer{
+	background-color: rgba(39,39,39,1.00);
+	color: #FFFFFF;
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 0;
+	
+}
+.colocacion{
+	margin-top: 170px;
+	border-radius: 1
+	
+}
+footer p{
+	margin-left:30px; 
+}
+#form{
+	background: linear-gradient(to right,#4A148C,#C90609);}
+
+
+
+
+
+
+
+
+
+
+		
